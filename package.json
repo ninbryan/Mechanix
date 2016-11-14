@@ -6,9 +6,11 @@
   "author": "Bryan Maamo <ninjabryan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "pretest": "semistandard --fix test.js"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "semistandard": "^9.1.0"
   }
 }
