@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/ninbryan/Mechanix.git",
   "author": "Bryan Maamo <ninjabryan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
 }
